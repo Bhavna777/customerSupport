@@ -1,0 +1,80 @@
+.loginForm{
+  height: 100vh;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.loginForm h1{
+  padding: 50px;
+  text-align: center;
+}
+
+form {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"], input[type="password"], select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+select {
+  background-color: #f2f2f2;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, select:focus {
+  outline: none;
+  border-color: #7f8fa6;
+  box-shadow: 0 0 5px rgba(127, 143, 166, 0.5);
+}
+
+input[type="submit"] {
+  background-color: #2d98da;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #2680c2;
+}
+
+
+.loginForm p{
+  /* margin-top: 20px; */
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 50%;
+  }
+}
